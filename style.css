@@ -1,4 +1,37 @@
-body{
-    padding: 0px;
-    margin: 0px;
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald, sans-serif !important;
+}
+
+.hero-section{
+  display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: end;
+}
+.main-width{
+    width: 1350px;
+}
+.banner-container{
+    max-width: 45%;
+    text-align: right;
+    margin: 0 auto;
+    margin-right: 0;
+    padding-bottom: 100px;
+}
+.hero-section h1{
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.hero-section h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
 }

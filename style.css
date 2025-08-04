@@ -199,3 +199,27 @@ body {
   text-align: center;
   padding: 0 10px;
 }
+
+.you-tube iframe{
+width:100%;
+height:400px;
+}
+
+.subscription{
+    display: flex;
+    color: #ffffff;
+    background-color: #4c5166;
+    justify-content: center;
+}
+.sub-text{
+    width: 912px;
+}
+.sub-text h2{
+    font-size: 48px;
+}
+.sub-text p{
+    font-size: 18px;
+}
+.subscription button{
+    padding: 0px 60px ;
+}

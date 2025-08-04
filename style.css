@@ -16,7 +16,9 @@ body {
     justify-content: end;
 }
 .main-width{
-    width: 1350px;
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;;
 }
 .banner-container{
     max-width: 45%;
@@ -34,4 +36,56 @@ body {
     color: #fff;
     font-size: 20px;
     margin-top: 0;
+}
+.about{
+   display: flex;
+   padding: 50px;
+}
+.about-img img{
+ width: 570px;
+ height: 390px;
+}
+.about-text{
+    width: 600px;
+    height:388px;
+    margin-left: 20px;
+}
+.about-text h2{
+    font-size: 48px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about-text h4{
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.about-text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-top: 15px;
+    line-height: 1.6rem;    
+}
+.about-text button{
+    background-color: rgb(82, 89, 105);
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 0;
+}
+
+.about-text button:hover{
+    background-color: rgb(74, 78, 86);
+}
+
+
+.other-countries{
+    display: flex;
+}
+
+.other-lang{
+    padding: 30px;
 }

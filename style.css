@@ -37,11 +37,24 @@ body {
     font-size: 20px;
     margin-top: 0;
 }
+
+@media only screen and (min-width: 320px) {
+  .hero-section {
+    background-position: center;
+  
+  }
+  .banner-container{
+    margin: 0 50px;
+  }
+}
+
+
+
 .about{
    display: flex;
    margin-top: 50px;
    margin-bottom: 50px;
-   background-color: #f2f2f2;
+   
 }
 .about-img img{
  width: 570px;
@@ -126,7 +139,7 @@ body {
 .our-languages{
    display: flex;
    gap:20px;
-   background-color: #f2f2f2;
+ 
 }
 .language-sec-img img{
  width: 570px;
@@ -355,3 +368,5 @@ height:400px;
 .footer a:hover {
   color: #bffeff; 
 }
+
+
